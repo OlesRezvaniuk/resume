@@ -1,0 +1,52 @@
+.button__area {
+    align-items: center;
+    margin-left: 12px;
+}
+
+.footer__button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 48px;
+    padding: 10px 29px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    
+    border-radius: 4px;
+    border: none;
+    color: var(--white-text-color);
+    background-color: var(--action-text-color);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        color: var(--action-text-color);
+        background-color: var(--white-text-color);
+        cursor: pointer;
+    }
+}
+
+.button__icon {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+
+
+
+
+
+
+// .footer__button:focus,
+// .footer__button:hover {
+//     color: var(--action-text-color);
+//     background-color: var(--white-text-color);
+//     cursor: pointer;
+// }

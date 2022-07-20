@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    &__link--action {
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__link--action:hover,
+    &__link--action:focus {
+        color: var(--action-text-color);
+    }
+}

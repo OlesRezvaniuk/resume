@@ -1,0 +1,88 @@
+.works {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 50px;
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--heavy-text-color);
+    }
+
+    &__contanier {
+        height: 120px;
+        background-color: var(--community-bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    
+        border-radius: 4px;
+    }
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__photo {
+        display: block;
+    }
+
+    &__item::after {
+        position: absolute;
+        content: "";
+        height: 70px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background: rgba(47, 48, 58, 0.8);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+        color: var(--white-text-color);
+    }
+
+    &__item:nth-child(1)::after {
+        position: absolute;
+        content: "Десктопные приложения";
+    }
+    
+    &__item:nth-child(2)::after {
+        position: absolute;
+        content: "Мобильные приложения";
+    }
+    
+    &__item:nth-child(3)::after {
+        position: absolute;
+        content: "Дизайнерские решения";
+    }
+    
+    &__item+.works__item {
+        margin-left: 30px;
+    }
+    
+}
+
+
+.item__icon {
+    width: 70px;
+    height: 70px;
+}
+
