@@ -13,6 +13,7 @@
     }
     
     &__link {
+        position: relative;
         text-decoration: none;
         font-weight: 500;
         font-size: 14px;
@@ -25,11 +26,21 @@
 
         &--active {
             color: $active-color;
-        }
+        }     
 
         &:hover,
         &:focus {
             color: $active-color;
+        }
+
+        &--active::before {
+            position: absolute;
+            content: "";
+            height: 4px;
+            width: 100%;
+            bottom: -1px;
+            border-radius: 2px;
+            background-color: $active-color;
         }
     }
 
@@ -41,3 +52,13 @@
 .nav__item + .nav__item {
     margin-left: 50px;
 }
+
+// .nav__link--active::before {
+//     position: absolute;
+//     content: "";
+//     height: 4px;
+//     width: 100%;
+//     bottom: -1px;
+//     border-radius: 2px;
+//     background-color: $active-color;
+// }

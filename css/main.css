@@ -198,6 +198,7 @@ body {
   color: red;
 }
 .nav__link {
+  position: relative;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -212,6 +213,15 @@ body {
 }
 .nav__link:hover, .nav__link:focus {
   color: #2196F3;
+}
+.nav__link--active::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  bottom: -1px;
+  border-radius: 2px;
+  background-color: #2196F3;
 }
 @media screen and (max-width: 767px) {
   .nav {
