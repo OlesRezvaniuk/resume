@@ -8,6 +8,11 @@
     margin-right: auto;
     text-align: center;
 
+    &__icon {
+        fill: currentColor;
+        margin-left: 10px;
+    }
+
     &__link {
         text-decoration: none;
         color: $main-color;
