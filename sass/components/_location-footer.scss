@@ -1,0 +1,16 @@
+.location {
+    margin-bottom: 60px;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        color: $main-color;
+        margin-bottom: 8px;
+    }
+
+    &__item:last-child {
+        margin-bottom: 0px;
+    }
+}

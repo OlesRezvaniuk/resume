@@ -14,7 +14,8 @@
         }
     }
     
-    &__link:hover {
+    &__link:hover,
+    &__link:focus {
         color: $active-color;
     }
 

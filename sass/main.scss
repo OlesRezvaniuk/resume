@@ -13,4 +13,18 @@
 // main
 @import "./components/main";
 @import "./components/main-hero";
-@import "./utils/main-container"
+@import "./utils/main-container";
+@import "./utils/difference-container";
+@import "./components/difference-main";
+@import "./utils/team-container";
+@import "./components/team-main";
+@import "./components/social-icons";
+@import "./utils/clients-container";
+@import "./components/clients-main";
+
+// footer
+@import "./utils/footer-container";
+@import "./components/footer";
+@import "./components/join-footer";
+@import "./components/location-footer";
+@import "./components/subscribe-footer";
