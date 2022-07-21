@@ -1,0 +1,11 @@
+.menu__button {
+    display: inline-flex;
+    border: none;
+    background-color: transparent; 
+    margin-left: auto;
+    cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}

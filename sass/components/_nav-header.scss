@@ -1,0 +1,41 @@
+.nav {
+    display: inline-flex;
+    margin-left: 88px;
+
+    &__list {  
+        list-style: none;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    &__item:hover {
+        color: red;
+    }
+    
+    &__link{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+        color: $heavy-color;
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+
+
+        &--active {
+            color: $active-color;
+            
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+}
+
+.nav__item + .nav__item {
+    margin-left: 50px;
+}
