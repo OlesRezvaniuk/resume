@@ -12,7 +12,7 @@
         color: red;
     }
     
-    &__link{
+    &__link {
         text-decoration: none;
         font-weight: 500;
         font-size: 14px;
@@ -23,11 +23,13 @@
         padding-top: 32px;
         padding-bottom: 32px;
 
-
-
         &--active {
             color: $active-color;
-            
+        }
+
+        &:hover,
+        &:focus {
+            color: $active-color;
         }
     }
 

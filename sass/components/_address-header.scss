@@ -14,6 +14,9 @@
         }
     }
     
+    &__link:hover {
+        color: $active-color;
+    }
 
     &__link {
         display: inline-flex;
@@ -30,7 +33,7 @@
     }
     
     &__icon {
-
+        fill: currentColor;
         &--envelope {
             width: 14px;
             height: 10px;
@@ -57,4 +60,5 @@
         margin-left: 30px;
     }
 }
+
 

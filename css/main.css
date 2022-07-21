@@ -109,6 +109,9 @@ body {
   border: none;
   background-color: transparent;
   margin-left: auto;
+}
+.menu__button:hover, .menu__button:focus {
+  fill: #2196F3;
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
@@ -130,6 +133,9 @@ body {
     display: flex;
   }
 }
+.address__link:hover {
+  color: #2196F3;
+}
 .address__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -143,6 +149,9 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.02em;
+}
+.address__icon {
+  fill: currentColor;
 }
 .address__icon--envelope {
   width: 14px;
@@ -201,6 +210,9 @@ body {
 .nav__link--active {
   color: #2196F3;
 }
+.nav__link:hover, .nav__link:focus {
+  color: #2196F3;
+}
 @media screen and (max-width: 767px) {
   .nav {
     display: none;
@@ -228,7 +240,6 @@ body {
   margin-left: auto;
 }
 .hero__title {
-  display: block;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.62;

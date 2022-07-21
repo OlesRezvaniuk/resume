@@ -3,7 +3,18 @@
     border: none;
     background-color: transparent; 
     margin-left: auto;
-    cursor: pointer;
+
+
+    &:hover,
+    &:focus {
+        fill: $active-color;
+        cursor: pointer;
+    }
+
+    // &--animate:hover,
+    // &--animate:focus {
+    //     fill: $active-color;
+    // }
 
     @media screen and (min-width: 768px) {
         display: none;
