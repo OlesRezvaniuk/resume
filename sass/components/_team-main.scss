@@ -31,6 +31,7 @@
         margin-bottom: 30px;
         justify-content: center;
         width: 100%;
+        width: inherit;
     }
 
     &__heading {
@@ -59,6 +60,20 @@
 
     &__list {
         background: #F5F4FA;
+        
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: center;
+            flex-wrap:nowrap;
+
+        }
+
     }
 
     &__item {
@@ -67,10 +82,24 @@
         border-radius: 0px 0px 4px 4px;
         background-color: $white-color;
         padding-bottom: 24px;
+        width: 450px;
+
+        @media screen and (min-width:768px) {
+            display: block;
+            width: 354px;
+            margin-bottom: 0px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: block;
+            width: 270px;
+            margin-bottom: 0px;            
+        }
     }
 
     &__item:last-child {
         margin-bottom: 0px;
+
     }
 }
 

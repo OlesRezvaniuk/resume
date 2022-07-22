@@ -12,6 +12,16 @@
 
     &__list {
         list-style: none;
+        
+        @media screen and (min-width: 768px) {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        
+
     }
 
     &__box {
@@ -27,6 +37,16 @@
 
     &__item {
         margin-bottom: 30px;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+            margin-bottom: 0px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+            
+        }
     }
 
     &__item:last-child {

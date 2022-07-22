@@ -1,5 +1,18 @@
 .subscribe {
 
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
+        
+    }
+
+    &__box {
+        
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        }
+
+    }
+
     &__input {
         padding-left: 16px;
         margin-bottom: 20px;
@@ -19,6 +32,10 @@
         @media screen and (max-width:479px) {
             width: 290px;
         }
+
+        @media screen and (min-width: 1200px) {
+            width: 358px;
+        }
         
     }    
     
@@ -32,5 +49,10 @@
 
         color: $white-color;
         margin-bottom: 20px;
+
+        @media screen and (min-width: 1200px) {
+            text-align: start;
+        }
+
     }
 }
