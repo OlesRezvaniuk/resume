@@ -121,6 +121,18 @@ body {
   }
 }
 
+.icon__close {
+  display: none;
+}
+
+.menu__button.is-open .icon__close {
+  display: block;
+}
+
+.menu__button.is-open .icon__menu {
+  display: none;
+}
+
 .address {
   margin-left: auto;
 }

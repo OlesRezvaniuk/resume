@@ -19,4 +19,17 @@
     @media screen and (min-width: 768px) {
         display: none;
     }
+
+}
+
+.icon__close {
+    display: none;
+}
+
+.menu__button.is-open .icon__close {
+    display: block;
+}
+
+.menu__button.is-open .icon__menu {
+    display: none;
 }

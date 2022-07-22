@@ -31,9 +31,10 @@
                     </li>
                 </ul>
             </nav>
-            <button type="button" class="menu__button">
-                <svg class="menu__icon" width="40px" height="40px">
-                    <use href="./images/symbol-defs-new.svg#icon-menu" class="menu__icon--animate"></use>
+            <button type="button" class="menu__button is-open" data-menu-button>
+                <svg class="menu__icon" width="40px" height="40px" aria-label="Переключатель мобильного меню">
+                    <use class="icon__menu" href="./images/symbol-defs-new.svg#icon-menu" class="menu__icon--animate"></use>
+                    <use class="icon__close" href="./images/symbol-defs-new.svg#icon-close" class="menu__icon--animate"></use>
                 </svg>
             </button>
             <div class="address">
@@ -396,5 +397,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
