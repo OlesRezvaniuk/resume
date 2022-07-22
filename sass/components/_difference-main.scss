@@ -5,6 +5,11 @@
     margin-right: auto;
     text-align: center;
     
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
     &__title {
         font-size: 0px;
         text-align: center;
