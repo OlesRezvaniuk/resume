@@ -27,13 +27,25 @@
         color: $heavy-color;
 
         margin-bottom: 30px;
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+
+            color: $heavy-color;
+        }
     }
 
     &__img {
         display: inline-flex;
         margin-bottom: 30px;
         justify-content: center;
-        width: 100%;
+        max-width: 100%;
         width: inherit;
     }
 
@@ -85,7 +97,7 @@
         border-radius: 0px 0px 4px 4px;
         background-color: $white-color;
         padding-bottom: 24px;
-        width: 450px;
+        max-width: 450px;
 
         @media screen and (min-width:768px) {
             display: block;

@@ -9,6 +9,8 @@
     }
     @media screen and (min-width: 1200px) {
         margin-left: 305px;
+        display: flex;
+        align-items: center;
     }
 
     &__list {
@@ -55,14 +57,15 @@
         }
     }
 
-    // &__item {
-    //     display: inline-flex;
-    // }
+    &__item {
+        display: flex;
+    }
 
     &__list {
         position: relative;
         @media screen and (min-width:1200px) {
             display: flex;
+            justify-content: center;
         }
 
         @media screen and (max-width: 767px) {
@@ -80,6 +83,22 @@
         align-items: center;
         text-decoration: none;
         color: inherit;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+
+        letter-spacing: 0.02em;
+
+        color: $main-color;
+
+        @media screen and (min-width: 1200px) {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+        }
 
         @media screen and (max-width: 767px) {
             // font-weight: 500;
@@ -173,5 +192,29 @@
         content: "";
         bottom: 0;
         left: 0;
+    }
+}
+
+.address__link--mobile {
+    @media screen and (max-width: 767px) {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        /* identical to box height */
+
+        letter-spacing: 0.02em;
+
+        color: $active-color;
+    }
+}
+
+.address__link--mail {
+    @media screen and (max-width: 767px) {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+
+        color: $main-color;
     }
 }
