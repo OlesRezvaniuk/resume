@@ -4,6 +4,35 @@
         list-style: none;
     }
 
+    &__item {
+        color: $main-color;
+    }
+
+    &__item:first-child {
+        @media screen and (max-width: 767px) {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.02em;
+        
+    
+            color: $main-color;
+        }
+
+    }
+
+    &__item:last-child {
+        @media screen and (max-width: 767px) {
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+            
+            letter-spacing: 0.02em;
+            color: $active-color;
+        }
+    }
+
     // &__item {
     //     display: inline-flex;
     // }
@@ -11,6 +40,10 @@
     &__list {
         @media screen and (min-width:1200px) {
             display: flex;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 64px;
         }
     }
     
@@ -23,16 +56,19 @@
         display: inline-flex;
         align-items: center;
         text-decoration: none;
-        color: $main-color;
+        color: inherit;
 
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 14px;
+        @media screen and (max-width: 767px) {
+            // font-weight: 500;
+            // font-size: 34px;
+            // line-height: 40px;
 
-        letter-spacing: 0.02em;
-
+            // letter-spacing: 0.02em;
+            // color: $active-color;
+        }
     }
-    
+
+
     &__icon {
         fill: currentColor;
         &--envelope {
@@ -43,6 +79,10 @@
             @media screen and (min-width: 1200px) {
                 width: 16px;
                 height: 12px;
+            }
+
+            @media screen and (max-width: 767px) {
+                display: none;
             }
         }
 
@@ -55,6 +95,10 @@
                 width: 10px;
                 height: 16px;
             }
+
+            @media screen and (max-width: 767px) {
+                display: none;
+            }
         }        
     }
 
@@ -65,6 +109,10 @@
 
 .address__item + .address__item {
     margin-top: 8px;
+
+    @media screen and (max-width: 767px) {
+        margin-top: 32px;
+    }
 
     @media screen and (min-width:1200px) {
         margin-top: 0px;
