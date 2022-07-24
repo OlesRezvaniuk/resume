@@ -33,3 +33,33 @@
 .menu__button.is-open .icon__menu {
     display: none;
 }
+
+.menu__container {
+    position: absolute;
+    content: "";
+    display: none;
+    background-color: grey;
+
+    text-align: center;
+    width: 480px;
+    background-color: rgba(255, 0, 0, 0.247);
+    top: 60px;
+    // left: 50%;
+    right: 50%;
+    transform: translateX(50%);
+
+    &.is-open {
+        display: flex;
+    }
+    
+    @media screen and (min-width: 768px) {
+        display: flex;
+        // width: 768px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateX(-50%);
+        transform: translateY(-50%); 
+        width: 768px;
+    }
+}
