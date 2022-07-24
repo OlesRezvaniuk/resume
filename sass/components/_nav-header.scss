@@ -42,6 +42,8 @@
         line-height: 47px;
         text-align: center;
         letter-spacing: 0.02em;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         }
 

@@ -37,6 +37,7 @@
 }
 
 .menu__container {
+    z-index: 99;
     position: absolute;
     content: "";
     display: none;
@@ -46,6 +47,8 @@
         display: flex;
         background-color: transparent;
         box-shadow: none;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
     // text-align: center;

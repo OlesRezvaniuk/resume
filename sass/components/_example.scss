@@ -67,6 +67,8 @@
         background: #F5F4FA;
         border-radius: 4px;     
         cursor: pointer;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         &:hover,
         &:focus {
@@ -123,6 +125,8 @@
         border: 1px solid #EEEEEE;
         margin-bottom: 30px;
         cursor: pointer;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         &:hover .overlay__info {
             transform: translateY(0);
@@ -142,7 +146,10 @@
             width: 370px;
             margin-bottom: 0px;
         }
+        
 
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         &:focus,
         &:hover {
             background: #FFFFFF;
@@ -170,6 +177,8 @@
         height: 294px;
         padding: 77px 24px;
         display: inline-block;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         background-color: $active-color;
         font-weight: 400;

@@ -41,6 +41,8 @@
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         color: $social-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         @media screen and (min-width:768px) {
             width: 226px;
@@ -56,6 +58,7 @@
     &__link:focus {
         color: $active-color;
         border-color: $active-color;
+        
     }
 
     &__icon {
