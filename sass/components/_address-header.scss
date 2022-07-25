@@ -184,6 +184,9 @@
         content: "";
         top: 0;
         left: 0;
+        @media screen and (max-width: 392px) {
+            top: -32px;
+        }
     }
 }
 .address__item:first-child {
@@ -196,6 +199,7 @@
 }
 
 .address__link--mobile {
+
     @media screen and (max-width: 767px) {
         font-weight: 500;
         font-size: 34px;

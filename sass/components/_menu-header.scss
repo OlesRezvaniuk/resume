@@ -106,8 +106,14 @@
 
 .mobile {
     list-style: none;
-    display: flex;
+    display: inline-flex;
     margin-bottom: 48px;
+    flex-wrap: wrap;
+
+        @media screen and (max-width: 479px) {
+            justify-content: space-evenly;
+            text-align: center;
+    }
 
     &__link {
         text-decoration: none;
@@ -118,8 +124,8 @@
         letter-spacing: 0.02em;
 
         color: $active-color;
-        @media screen and (max-content: 479px) {
-            max-width: 100%;
+        @media screen and (max-width: 479px) {
+            width: 100%;
         }
     }
 
