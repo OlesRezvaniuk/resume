@@ -125,7 +125,6 @@ body {
   position: fixed;
   content: "";
   right: 15px;
-  top: 10px;
 }
 .menu__button:hover, .menu__button:focus {
   fill: #2196F3;
