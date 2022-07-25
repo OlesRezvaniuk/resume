@@ -74,7 +74,7 @@
     }
 
     &.is-open {
-        display: inline-block;
+        display: flex;
 
         @media screen and (min-width: 768px) {
             display: flex;
@@ -83,6 +83,7 @@
         @media screen and (min-width: 1200px) {
             display: flex;
         }
+
     }
     
     
@@ -110,7 +111,11 @@
     margin-bottom: 48px;
     flex-wrap: wrap;
 
-        @media screen and (max-width: 479px) {
+        @media screen and (max-width: 767px) {
+            position: absolute;
+            content: "";
+            left: 40;
+            bottom: 0;
             justify-content: space-evenly;
             text-align: center;
     }
@@ -144,5 +149,11 @@
     
     @media screen and (min-width: 767px) {
         display: none;
+    }
+}
+
+.menu__flash {
+    @media screen and (max-width:480px) {
+        width: 480px;
     }
 }

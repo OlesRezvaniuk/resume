@@ -4,6 +4,11 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
     &__title {
         font-size: 0px;
     }
@@ -47,10 +52,15 @@
         display: flex;
         flex-wrap: wrap;
         gap: 15px 8px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
 
         @media screen and (min-width: 768px) {
             justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
         }
     }
 
@@ -82,18 +92,19 @@
     &__img {
         display: block;
         justify-content: center;
+        width: 100%;
 
-        @media screen and (min-width: 480px) {
-            width: 450px;
-        }
+        // @media screen and (min-width: 480px) {
+        //     width: 450px;
+        // }
 
-        @media screen and (min-width: 768px) {
-            width: 354px;
-        }
+        // @media screen and (min-width: 768px) {
+        //     width: 354px;
+        // }
 
-        @media screen and (min-width: 1200px) {
-            width: 370px;
-        }
+        // @media screen and (min-width: 1200px) {
+        //     width: 370px;
+        // }
     }
 
     &__galery {
