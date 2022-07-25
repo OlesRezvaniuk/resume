@@ -4,6 +4,7 @@
     url("../images/Hero-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
     @media screen and (max-width: 767px) {
         padding-bottom: 118px;
