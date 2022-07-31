@@ -1,17 +1,15 @@
 .address {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    height: max-content;
+    display: block;
 
     // margin-left: 84px;
     
     @media screen and (min-width: 768px) {
-
         margin-left: 84px; 
-        display: flex;
-        height: min-content;
-                position: relative;
-                    content: "";
-                    top: -6px;
+        display: inline-block;
+
     }
     @media screen and (min-width: 1200px) {
         margin-left: 305px;
