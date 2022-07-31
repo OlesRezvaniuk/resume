@@ -30,10 +30,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 480px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 480px;
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .header__container {
@@ -286,6 +287,15 @@ body {
 @media screen and (min-width: 768px) {
   .address {
     margin-left: 84px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    position: relative;
+    content: "";
+    top: -6px;
   }
 }
 @media screen and (min-width: 1200px) {
