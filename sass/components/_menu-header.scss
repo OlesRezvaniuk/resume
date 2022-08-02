@@ -3,7 +3,7 @@
     border: none;
     background-color: transparent; 
     margin-left: auto;
-    z-index: 100;
+    z-index: 3;
     position: fixed;
     content: "";
     right: 15px;
@@ -111,6 +111,9 @@
     display: inline-flex;
     margin-bottom: 48px;
     flex-wrap: wrap;
+        @media screen and (min-width: 320px) {
+            left: 30px;
+        }
 
         @media screen and (max-width: 767px) {
             position: absolute;
@@ -125,6 +128,9 @@
         text-decoration: none;
         font-weight: 500;
         font-size: 18px;
+        @media screen and (min-width: 320px) {
+            font-size: 12px;
+        }
         line-height: 1.22;
 
         letter-spacing: 0.02em;

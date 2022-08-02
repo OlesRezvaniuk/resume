@@ -121,7 +121,7 @@ body {
   border: none;
   background-color: transparent;
   margin-left: auto;
-  z-index: 100;
+  z-index: 3;
   position: fixed;
   content: "";
   right: 15px;
@@ -232,6 +232,11 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+@media screen and (min-width: 320px) {
+  .mobile {
+    left: 30px;
+  }
+}
 @media screen and (max-width: 767px) {
   .mobile {
     position: absolute;
@@ -251,6 +256,11 @@ body {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (min-width: 320px) {
+  .mobile__link {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 479px) {
   .mobile__link {
@@ -1770,7 +1780,7 @@ body {
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  z-index: 3;
+  z-index: 5;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -1779,6 +1789,13 @@ body {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+@media screen and (min-width: 320px) {
+  .modal {
+    width: 290px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media screen and (min-width: 480px) {
   .modal {
@@ -1840,6 +1857,16 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 320px) {
+  .form__input {
+    width: 260px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .form__input {
+    width: 370px;
+  }
 }
 @media screen and (min-width: 768px) {
   .form__input {
@@ -1946,8 +1973,6 @@ body {
 }
 
 .feedback {
-  padding: 0px;
-  width: 370px;
   height: 120px;
   border: none;
   resize: none;
@@ -1960,6 +1985,17 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 320px) {
+  .feedback {
+    width: 260px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .feedback {
+    padding: 16px;
+    width: 370px;
+  }
 }
 @media screen and (min-width: 768px) {
   .feedback {
@@ -2024,6 +2060,12 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-left: 0px;
+}
+@media screen and (max-width: 479px) {
+  .checkbox__label {
+    font-size: 8px;
+    letter-spacing: 0.01em;
+  }
 }
 @media screen and (min-width: 1200px) {
   .checkbox__label {
@@ -2094,7 +2136,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 4;
   background: rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
