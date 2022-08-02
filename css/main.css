@@ -149,7 +149,7 @@ body {
 }
 
 .menu__container {
-  z-index: 99;
+  z-index: 1;
   position: fixed;
   content: "";
   display: none;
@@ -1764,13 +1764,13 @@ body {
   padding: 40px;
   display: inline-block;
   text-align: center;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+  z-index: 3;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -2094,6 +2094,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 2;
   background: rgba(0, 0, 0, 0.2);
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
