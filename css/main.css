@@ -11,6 +11,13 @@ body {
   font-family: "Montserrat";
   font-style: normal;
 }
+body > main {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  padding: 40px;
+}
 body > main .resume {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,7 +25,6 @@ body > main .resume {
   gap: 88px;
   width: 1280px;
   height: 1500px;
-  margin: 40px;
   background: #FFFFFF;
   -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -104,8 +110,8 @@ body > main .resume-sidebar .contacts-address__symbol {
   margin-right: 12px;
 }
 body > main .resume-sidebar .social-list {
-  -webkit-box-shadow: inset 0px 0px 5px;
-          box-shadow: inset 0px 0px 5px;
+  -webkit-box-shadow: inset 0px -1px 3px;
+          box-shadow: inset 0px -1px 3px;
   padding: 5px;
   list-style: none;
   display: -webkit-box;
@@ -324,11 +330,17 @@ body > main .resume-info .education__title {
   margin-bottom: 12px;
   color: #000000;
 }
-body > main .resume-info .education__item:last-child {
-  margin-top: 20px;
-}
 body > main .resume-info .education__list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+body > main .resume-info .education > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 body > main .resume-info .education__text {
   margin-bottom: 5px;
