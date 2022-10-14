@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 
@@ -14,13 +15,12 @@ body {
     >main {
         width: max-content;
         margin: auto;
-        padding: 40px;
 
         .resume {
             display: flex;
             gap: 88px;
             width: 1280px;
-            height: 1500px;
+            height: 1400px;
             background: #FFFFFF;
             box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
             margin-right: auto;
@@ -33,9 +33,9 @@ body {
                     &__title {
                         color: #fff;
                         margin-bottom: 8px;
-                        font-size: 22px;
+                        font-size: 23px;
                         font-weight: 700;
-                        line-height: 27px;
+                        line-height: 29px;
                     }
 
                     &__list {
@@ -45,7 +45,7 @@ body {
 
                     &__item {
                         color: #fb6d3a;
-                        font-size: 14px;
+                        font-size: 15px;
                         font-weight: 400;
                         line-height: 1.71;
 
@@ -74,8 +74,8 @@ body {
                     &__title {
                         margin: 0;
                         font-weight: 700;
-                        font-size: 22px;
-                        line-height: 27px;
+                        font-size: 23px;
+                        line-height: 29px;
                         /* identical to box height */
 
 
@@ -84,12 +84,14 @@ body {
                     }
 
                     &-address {
+                        font-style: normal;
+
                         &__contact {
                             font-weight: 400;
-                            font-size: 14px;
+                            font-size: 15px;
                             line-height: 1.71;
                             color: #FFFFFF;
-                            opacity: 0.5;
+                            opacity: 1;
                         }
 
                         &__symbol {
@@ -98,7 +100,7 @@ body {
                             margin-bottom: auto;
 
                             font-weight: 700;
-                            font-size: 14px;
+                            font-size: 15px;
                             line-height: 1.71;
 
                             color: #FFFFFF;
@@ -127,6 +129,7 @@ body {
                     display: flex;
                     justify-content: space-evenly;
                     gap: 10px;
+                    border-radius: 10px;
 
                     &__item {
                         padding: 10px;
@@ -145,8 +148,8 @@ body {
                     &__title {
                         margin: 0;
                         font-weight: 700;
-                        font-size: 22px;
-                        line-height: 27px;
+                        font-size: 23px;
+                        line-height: 29px;
                         /* identical to box height */
 
 
@@ -161,7 +164,7 @@ body {
 
                     &__item {
                         font-weight: 400;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 1.71;
                         color: #FB6D3A;
 
@@ -178,8 +181,8 @@ body {
                     &__title {
                         margin-bottom: 8px;
                         font-weight: 700;
-                        font-size: 22px;
-                        line-height: 27px;
+                        font-size: 23px;
+                        line-height: 29px;
                         /* identical to box height */
 
 
@@ -192,7 +195,7 @@ body {
 
                     &__item {
                         font-weight: 400;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 1.71;
                         color: #FB6D3A;
 
@@ -215,7 +218,7 @@ body {
                     &__text {
                         display: block;
                         font-weight: 700;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 17px;
                         margin-bottom: 19px;
                     }
@@ -229,7 +232,7 @@ body {
 
                     &__info {
                         font-weight: 400;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 24px;
                         /* or 171% */
 
@@ -248,8 +251,8 @@ body {
 
                     &__title {
                         font-weight: 700;
-                        font-size: 22px;
-                        line-height: 27px;
+                        font-size: 23px;
+                        line-height: 29px;
                         margin-bottom: 8px;
 
                     }
@@ -263,7 +266,7 @@ body {
 
                     &__item {
                         font-weight: 700;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 24px;
 
                         &-icon {
@@ -279,7 +282,7 @@ body {
 
                         &-link {
                             font-weight: 700;
-                            font-size: 14px;
+                            font-size: 15px;
                             line-height: 24px;
                             /* or 171% */
 
@@ -289,7 +292,7 @@ body {
 
                         &-span {
                             font-weight: 400;
-                            font-size: 14px;
+                            font-size: 15px;
                             line-height: 24px;
                             /* or 171% */
 
@@ -300,7 +303,7 @@ body {
 
                         &-tech {
                             font-weight: 400;
-                            font-size: 14px;
+                            font-size: 15px;
                             line-height: 24px;
                             /* or 171% */
 
@@ -315,8 +318,8 @@ body {
 
                     &__title {
                         font-weight: 700;
-                        font-size: 22px;
-                        line-height: 27px;
+                        font-size: 23px;
+                        line-height: 29px;
                         /* identical to box height */
 
 
@@ -326,7 +329,7 @@ body {
 
                     &__info {
                         font-weight: 400;
-                        font-size: 14px;
+                        font-size: 15px;
                         line-height: 24px;
                         /* or 171% */
 
@@ -383,8 +386,8 @@ body {
                 .education {
                     &__title {
                         font-weight: 700;
-                        font-size: 22px;
-                        line-height: 27px;
+                        font-size: 23px;
+                        line-height: 29px;
                         /* identical to box height */
                         margin-bottom: 12px;
 
@@ -424,7 +427,7 @@ body {
 }
 
 .projects__info {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     margin-left: -18px;
