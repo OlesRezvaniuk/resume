@@ -135,7 +135,7 @@ body > main .resume-sidebar .social-list__icon {
 }
 body > main .resume-sidebar .tech-skills {
   margin-left: 40px;
-  margin-bottom: 44px;
+  margin-bottom: 30px;
 }
 body > main .resume-sidebar .tech-skills__title {
   margin: 0;
@@ -160,7 +160,7 @@ body > main .resume-sidebar .tech-skills__item-span {
   color: #ffffff;
 }
 body > main .resume-sidebar .soft-skills {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-left: 40px;
 }
 body > main .resume-sidebar .soft-skills__title {
