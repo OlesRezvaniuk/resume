@@ -1,65 +1,46 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main style="margin: 0; width: max-content; margin: auto" class="main">
-      <div class="resume">
-        <aside class="resume-sidebar">
-          <img
-            class="user-photo"
-            src="./src/images/photo1.jpg"
-            alt="photo"
-            height="352px"
-            width="370px"
-          />
-          <section class="contacts">
-            <h2 class="contacts__title">Contacts</h2>
-            <address class="contacts-address">
-              <ul class="contacts-address__list">
-                <li class="contacts-address__item">
-                  <a
-                    style="text-decoration: none"
-                    class="contacts-address__contact"
-                    href="tel:+380681193663"
-                    >+38 068 119 36 63</a
-                  >
-                </li>
-                <li class="contacts-address__item">
-                  <a
-                    class="contacts-address__contact"
-                    href="mail:orezvaniuk@gmail.com"
-                    >orezvaniuk@gmail.com</a
-                  >
-                </li>
-                <li class="contacts-address__item">
-                  <p class="contacts-address__contact">Kyiv, Ukraine</p>
-                </li>
-              </ul>
-            </address>
-            <ul class="social-list">
-              <li class="social-list__item">
-                <a
-                  class="social-list__link"
-                  target="_blank"
-                  href="https://github.com/OlesRezvaniuk"
-                >
-                  <svg class="social-list__icon" height="20px" width="20px">
-                    <use href="./src/images/symbol-defs.svg#icon-github"></use>
-                  </svg>
-                </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page title</title>
+  <link rel="stylesheet" href="./css/main.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <main style="margin: 0; width: max-content; margin: auto" class="main">
+    <div class="resume">
+      <aside class="resume-sidebar">
+        <img class="user-photo" src="./src/images/photo1.jpg" alt="photo" height="352px" width="370px" />
+        <section class="contacts">
+          <h2 class="contacts__title">Contacts</h2>
+          <address class="contacts-address">
+            <ul class="contacts-address__list">
+              <li class="contacts-address__item">
+                <a style="text-decoration: none" class="contacts-address__contact" href="tel:+380681193663">+38 068 119
+                  36 63</a>
               </li>
-              <!-- <li class="social-list__item">
+              <li class="contacts-address__item">
+                <a class="contacts-address__contact" href="mail:orezvaniuk@gmail.com">orezvaniuk@gmail.com</a>
+              </li>
+              <li class="contacts-address__item">
+                <p class="contacts-address__contact">Kyiv, Ukraine</p>
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a class="social-list__link" target="_blank" href="https://github.com/OlesRezvaniuk">
+                <svg class="social-list__icon" height="20px" width="20px">
+                  <use href="./src/images/symbol-defs.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- <li class="social-list__item">
                 <a
                   class="social-list__link"
                   target="_blank"
@@ -70,388 +51,323 @@
                   </svg>
                 </a>
               </li> -->
-              <li class="social-list__item">
-                <a class="social-list__link" href="tel:+380681193663">
-                  <svg class="social-list__icon" height="20px" width="20px">
-                    <use href="./src/images/symbol-defs.svg#icon-telegram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-list__item">
-                <a
-                  class="social-list__link"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/oles-rezvaniuk-773935249/"
-                >
-                  <svg class="social-list__icon" height="20px" width="20px">
-                    <use href="./src/images/symbol-defs.svg#icon-linkedin2"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section class="tech-skills">
-            <h2 class="tech-skills__title">Tech Skills</h2>
-            <ul class="tech-skills__list">
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">HTML</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">CSS,SCSS</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">WebPack</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">JavaScript</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">React.js</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">Node.js</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">GIT</span>
-              </li>
-              <li class="tech-skills__item">
-                <span class="tech-skills__item-span">Figma</span>
-              </li>
-                            <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Scrum</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Agile</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">GTD</span>
-              </li>
-            </ul>
-          </section>
-          <section class="soft-skills">
-            <h2 class="soft-skills__title">
-              <span class="soft-skills__item-span">Soft Skills</span>
-            </h2>
-            <ul class="soft-skills__list">
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Hardworking</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Creative</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Punctual</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Communicative</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Imaginative</span>
-              </li>
-              <li class="soft-skills__item">
-                <span class="soft-skills__item-span">Teamwork</span>
-              </li>
-            </ul>
-          </section>
-          <section class="languages">
-            <h2 class="languages__title">Languages</h2>
-            <ul class="languages__list">
-              <li class="languages__item">
-                <span class="languages__item-span"
-                  >English - Pre-intermediate</span
-                >
-              </li>
-              <li class="languages__item">
-                <span class="languages__item-span">Ukrainian - Native</span>
-              </li>
-              <li class="languages__item">
-                <span class="languages__item-span"
-                  >Russian - Upper-intermediate</span
-                >
-              </li>
-            </ul>
-          </section>
-        </aside>
-        <div class="resume-info">
-          <section class="hero">
-            <span class="hero__text">Junior Front-End-Developer</span>
-            <h1 class="hero__title">Oles Rezvaniuk</h1>
-            <p class="hero__info">
-I'm a front-end developer looking for a full-time position at a company that aims to make everyday life and business easier, more productive and convenient. I love hard work, I know how work with in team. I'm ready to perform difficult tasks. I have business communication skills, organizational skills, decision making skills, strong analytical thinking and written communication skills. 
-            </p>
-          </section>
-          <section class="projects">
-            <h2 class="projects__title">Projects</h2>
-            <ol class="projects__list">
-              <li class="projects__item">
-                <span class="projects__item-span">
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://olesrezvaniuk.github.io/IceCream-amators/"
-                    >IceCream-amators
-               </a>     <svg class="projects__item-icon" height="15px" width="10px">
-                      <use
-                        href="./src//images/symbol-defs.svg#icon-arrow-right"
-                      ></use></svg
-                  >
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://github.com/OlesRezvaniuk/IceCream-amators"
-                    >Link</a
-                  >
-                </span>
-                [
-                <span class="projects__item-tech">HTML, SASS, JS, Parcel</span>
-                ]
-                <p class="projects__info">
-                  A website with a responsive layout. Role: Developer. <br />
-                  Developed header of site and hero section, navigation, mobile
-                  menu, button to top, connected a script for a smooth
-                  transition. I designed the modal window and implemented it in
-                  the project.
-                </p>
-              </li>
-              <li class="projects__item">
-                <span class="projects__item-span">
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://olesrezvaniuk.github.io/cocktails-bar/"
-                    >Cocktails-bar
-                    
-                                       </a> <svg style="pointer-events: none;" class="projects__item-icon" height="15px" width="10px">
-                                          <use
-                                            href="./src//images/symbol-defs.svg#icon-arrow-right"
-                                          ></use></svg
-                    >
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://github.com/OlesRezvaniuk/cocktails-bar"
-                    >Link</a
-                  >
-                </span>
-                [
-                <span class="projects__item-tech"
-                  >HTML, SASS, JS, Handlebars, REST API, AJAX, Parcel</span
-                >
-                ]
-                <p class="projects__info">
-                  Application for learning about different types of cocktails.
-                  Role: Developer.<br />
-                  In this project i developt header with menu, navigation menu,
-                  search form, button of switch color theme, add to favorite
-                  cocktails, button to top and favicon.
-                </p>
-              </li>
-              <li class="projects__item">
-                <span class="projects__item-span">
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://olesrezvaniuk.github.io/Barbershop-adptv/#order"
-                    >Barbershop
+            <li class="social-list__item">
+              <a class="social-list__link" href="tel:+380681193663">
+                <svg class="social-list__icon" height="20px" width="20px">
+                  <use href="./src/images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/oles-rezvaniuk-773935249/">
+                <svg class="social-list__icon" height="20px" width="20px">
+                  <use href="./src/images/symbol-defs.svg#icon-linkedin2"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="tech-skills">
+          <h2 class="tech-skills__title">Tech Skills</h2>
+          <ul class="tech-skills__list">
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">HTML</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">CSS,SCSS</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">WebPack</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">JavaScript</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">React.js</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">Node.js</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">GIT</span>
+            </li>
+            <li class="tech-skills__item">
+              <span class="tech-skills__item-span">Figma</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Scrum</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Agile</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">GTD</span>
+            </li>
+          </ul>
+        </section>
+        <section class="soft-skills">
+          <h2 class="soft-skills__title">
+            <span class="soft-skills__item-span">Soft Skills</span>
+          </h2>
+          <ul class="soft-skills__list">
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Hardworking</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Creative</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Punctual</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Communicative</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Imaginative</span>
+            </li>
+            <li class="soft-skills__item">
+              <span class="soft-skills__item-span">Teamwork</span>
+            </li>
+          </ul>
+        </section>
+        <section class="languages">
+          <h2 class="languages__title">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">
+              <span class="languages__item-span">English - Pre-intermediate</span>
+            </li>
+            <li class="languages__item">
+              <span class="languages__item-span">Ukrainian - Native</span>
+            </li>
+            <li class="languages__item">
+              <span class="languages__item-span">Russian - Upper-intermediate</span>
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <div class="resume-info">
+        <section class="hero">
+          <span class="hero__text">Junior Front-End-Developer</span>
+          <h1 class="hero__title">Oles Rezvaniuk</h1>
+          <p class="hero__info">
+            I'm a front-end developer looking for a full-time position at a company that aims to make everyday life and
+            business easier, more productive and convenient. I love hard work, I know how work with in team. I'm ready
+            to perform difficult tasks. I have business communication skills, organizational skills, decision making
+            skills, strong analytical thinking and written communication skills.
+          </p>
+        </section>
+        <section class="projects">
+          <h2 class="projects__title">Projects</h2>
+          <ol class="projects__list">
+            <li class="projects__item">
+              <span class="projects__item-span">
+                <a target="_blank" class="projects__item-link" href="https://olesrezvaniuk.github.io/ITStudio/">
+                  Petly
 
-                 </a>   <svg class="projects__item-icon" height="15px" width="10px">
-                      <use
-                        href="./src//images/symbol-defs.svg#icon-arrow-right"
-                      ></use></svg
-                  >
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://github.com/OlesRezvaniuk/Barbershop-adptv"
-                    >Link</a
-                  >
-                </span>
-                [
-                <span class="projects__item-tech">HTML, SASS, JS</span>
-                ]
-                <p class="projects__info">
-                  Self education project. A website with responsible layout.
-                  Role: All.<br />
-                </p>
-              </li>
-              <li class="projects__item">
-                <span class="projects__item-span">
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://olesrezvaniuk.github.io/goit-markup-hw-08/"
-                    >WebStudio
+                </a> <svg class="projects__item-icon" height="15px" width="10px">
+                  <use href="./src//images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+                <a target="_blank" class="projects__item-link" href="https://github.com/OlesRezvaniuk/ITStudio">Link</a>
+              </span>
+              [
+              <span class="projects__item-tech">REACT, REDUX, JS, SC</span>
+              ]
+              <p class="projects__info">
+                A website for placing or finding pets and helping them find homes. A responsible latout.
+                Developed: routes, layout, notices pages with search form and modals, modals in user page.
+                <br />
+              </p>
+            </li>
+            <li class="projects__item">
+              <span class="projects__item-span">
+                <a target="_blank" class="projects__item-link"
+                  href="https://olesrezvaniuk.github.io/IceCream-amators/">IceCream-amators
+                </a> <svg class="projects__item-icon" height="15px" width="10px">
+                  <use href="./src//images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+                <a target="_blank" class="projects__item-link"
+                  href="https://github.com/OlesRezvaniuk/IceCream-amators">Link</a>
+              </span>
+              [
+              <span class="projects__item-tech">HTML, SASS, JS, Parcel</span>
+              ]
+              <p class="projects__info">
+                A website with a responsive layout. Role: Developer. <br />
+                Developed header of site and hero section, navigation, mobile
+                menu, button to top, connected a script for a smooth
+                transition. I designed the modal window and implemented it in
+                the project.
+              </p>
+            </li>
+            <li class="projects__item">
+              <span class="projects__item-span">
+                <a target="_blank" class="projects__item-link"
+                  href="https://olesrezvaniuk.github.io/cocktails-bar/">Cocktails-bar
 
-                </a>    <svg class="projects__item-icon" height="15px" width="10px">
-                      <use
-                        href="./src//images/symbol-defs.svg#icon-arrow-right"
-                      ></use></svg
-                  >
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://github.com/OlesRezvaniuk/goit-markup-hw-08"
-                    >Link</a
-                  >
-                </span>
-                [
-                <span class="projects__item-tech">HTML, SASS, JS</span>
-                ]
-                <p class="projects__info">
-                  Education project. A website with responsible layout. Role:
-                  All.<br />
-                </p>
-              </li>
-              <li class="projects__item">
-                <span class="projects__item-span">
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://olesrezvaniuk.github.io/Britlex/"
-                    >Britlex
+                </a> <svg style="pointer-events: none;" class="projects__item-icon" height="15px" width="10px">
+                  <use href="./src//images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+                <a target="_blank" class="projects__item-link"
+                  href="https://github.com/OlesRezvaniuk/cocktails-bar">Link</a>
+              </span>
+              [
+              <span class="projects__item-tech">HTML, SASS, JS, Handlebars, REST API, AJAX, Parcel</span>
+              ]
+              <p class="projects__info">
+                Application for learning about different types of cocktails.
+                Role: Developer.<br />
+                In this project i developt header with menu, navigation menu,
+                search form, button of switch color theme, add to favorite
+                cocktails, button to top and favicon.
+              </p>
+            </li>
+            <li class="projects__item">
+              <span class="projects__item-span">
+                <a target="_blank" class="projects__item-link"
+                  href="https://olesrezvaniuk.github.io/Barbershop-adptv/#order">Barbershop
 
-                  </a>  <svg class="projects__item-icon" height="15px" width="10px">
-                      <use
-                        href="./src//images/symbol-defs.svg#icon-arrow-right"
-                      ></use></svg
-                  >
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://github.com/OlesRezvaniuk/Britlex"
-                    >Link</a
-                  >
-                </span>
-                [
-                <span class="projects__item-tech">HTML, SASS</span>
-                ]
-                <p class="projects__info">
-                  Self education project. A website with responsible layout.
-                  Role: All.<br />
-                </p>
-              </li>
-              <li class="projects__item">
-                <span class="projects__item-span">
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://olesrezvaniuk.github.io/ITStudio/"
-                  >
-                    ITStudio
+                </a> <svg class="projects__item-icon" height="15px" width="10px">
+                  <use href="./src//images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+                <a target="_blank" class="projects__item-link"
+                  href="https://github.com/OlesRezvaniuk/Barbershop-adptv">Link</a>
+              </span>
+              [
+              <span class="projects__item-tech">HTML, SASS, JS</span>
+              ]
+              <p class="projects__info">
+                Self education project. A website with responsible layout.
+                Role: All.<br />
+              </p>
+            </li>
+            <li class="projects__item">
+              <span class="projects__item-span">
+                <a target="_blank" class="projects__item-link"
+                  href="https://olesrezvaniuk.github.io/goit-markup-hw-08/">WebStudio
 
-         </a>           <svg class="projects__item-icon" height="15px" width="10px">
-                      <use
-                        href="./src//images/symbol-defs.svg#icon-arrow-right"
-                      ></use></svg
-                  >
-                  <a
-                    target="_blank"
-                    class="projects__item-link"
-                    href="https://github.com/OlesRezvaniuk/ITStudio"
-                    >Link</a
-                  >
-                </span>
-                [
-                <span class="projects__item-tech">HTML, SASS</span>
-                ]
-                <p class="projects__info">
-                  Self education project. Role: All.<br />
-                </p>
-              </li>
-            </ol>
-          </section>
-          <section class="exp">
-            <h2 class="exp__title">Work Experience</h2>
-            <ul class="exp__works-list">
-              <li class="exp__works-list__item">
-                <p class="exp__text">
-                  Development and bulding-projects company |<span
-                    class="exp__text--accent"
-                  >
-                    Owner</span
-                  >
-                </p>
-                <span class="exp__up-to">2014-2021</span>
-                <ul class="exp__list">
-                                    <li class="exp__item">
-                    <p class="exp__info">
-                     
-development of architectural and structural projects of buildings.
-                    </p>
-                  </li>
-                  <li class="exp__item">
-                    <p class="exp__info">
-                      market analysis, development of a business plan.
-                    </p>
-                  </li>
-                  <li class="exp__item">
-                    <p class="exp__info">
-                      organization and construction control.
-                    </p>
-                  </li>
-                  <li class="exp__item">
-  <p class="exp__info">
-    communication with clients, hold a meetings
-  </p>
-</li>
-                                    <li class="exp__item">
-                    <p class="exp__info">
-                      in this period i have more 50 architect projects and we build more then twenty houses and some
-                      commercial buildings around 
-                      Kyiv.
-                    </p>
-                  </li>
+                </a> <svg class="projects__item-icon" height="15px" width="10px">
+                  <use href="./src//images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+                <a target="_blank" class="projects__item-link"
+                  href="https://github.com/OlesRezvaniuk/goit-markup-hw-08">Link</a>
+              </span>
+              [
+              <span class="projects__item-tech">HTML, SASS, JS</span>
+              ]
+              <p class="projects__info">
+                Education project. A website with responsible layout. Role:
+                All.<br />
+              </p>
+            </li>
+            <li class="projects__item">
+              <span class="projects__item-span">
+                <a target="_blank" class="projects__item-link"
+                  href="https://olesrezvaniuk.github.io/Britlex/">Happy-milf
+
+                </a> <svg class="projects__item-icon" height="15px" width="10px">
+                  <use href="./src//images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+                <a target="_blank" class="projects__item-link" href="https://github.com/OlesRezvaniuk/Britlex">Link</a>
+              </span>
+              [
+              <span class="projects__item-tech">REACT, REDUX, SC, RESTAPI, JS </span>
+              ]
+              <p class="projects__info">
+                A website with responsible layout, for people who want lose excess weight.
+                Developed: routes, navigations, header, all menues and modal windows, login and register page, requests,
+                diary page, calculator page, night theme. <br />
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="exp">
+          <h2 class="exp__title">Work Experience</h2>
+          <ul class="exp__works-list">
+            <li class="exp__works-list__item">
+              <p class="exp__text">
+                Development and bulding-projects company |<span class="exp__text--accent">
+                  Owner</span>
+              </p>
+              <span class="exp__up-to">2014-2021</span>
+              <ul class="exp__list">
+                <li class="exp__item">
+                  <p class="exp__info">
+
+                    development of architectural and structural projects of buildings.
+                  </p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">
+                    market analysis, development of a business plan.
+                  </p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">
+                    organization and construction control.
+                  </p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">
+                    communication with clients, hold a meetings
+                  </p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">
+                    in this period i have more 50 architect projects and we build more then twenty houses and some
+                    commercial buildings around
+                    Kyiv.
+                  </p>
+                </li>
 
 
-                </ul>
-              </li>
-              <li class="exp__works-list__item">
-                <p class="exp__text">
-                  Architect of the village of Sofiyivska Borshchahivka |
-                  <span class="exp__text--accent"> Chief</span>
-                </p>
-                <span class="exp__up-to">2017 - 2019</span>
-                <ul class="exp__list">
-                  <li class="exp__item">
-                    <p class="exp__info">approval of project documentation.</p>
-                  </li>
-                  <li class="exp__item">
-                    <p class="exp__info">communication with residents and hold a meetings</p>
-                  </li>
-                  <li class="exp__item">
-                    <p class="exp__info">
-                      control of construction in the village.
-                    </p>
-                  </li>
-                  <li class="exp__item">
-                    <p class="exp__info">
-                      organization and presiding over public hearings.
-                    </p>
-                  </li>
-                </ul>
-              </li>
-              
-            </ul>
-          </section>
-          <section class="education">
-            <h2 class="education__title">Education</h2>
-            <ul class="education__list">
-              <li class="education__item">
-                <p class="education__text">IT School GoIT (Kyiv)</p>
-                <span class="education__text-year">2022 - 2022</span>
-                <span class="education__text-direction"
-                  >Fullstack Developer</span
-                >
-              </li>
-              <li class="education__item">
-                <p class="education__text">National Aviation University</p>
-                <span class="education__text-year">2008 - 2014</span>
-                <span class="education__text-direction">Architect</span>
-              </li>
-            </ul>
-          </section>
-        </div>
+              </ul>
+            </li>
+            <li class="exp__works-list__item">
+              <p class="exp__text">
+                Architect of the village of Sofiyivska Borshchahivka |
+                <span class="exp__text--accent"> Chief</span>
+              </p>
+              <span class="exp__up-to">2017 - 2019</span>
+              <ul class="exp__list">
+                <li class="exp__item">
+                  <p class="exp__info">approval of project documentation.</p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">communication with residents and hold a meetings</p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">
+                    control of construction in the village.
+                  </p>
+                </li>
+                <li class="exp__item">
+                  <p class="exp__info">
+                    organization and presiding over public hearings.
+                  </p>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </section>
+        <section class="education">
+          <h2 class="education__title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <p class="education__text">IT School GoIT (Kyiv)</p>
+              <span class="education__text-year">2022 - 2022</span>
+              <span class="education__text-direction">Fullstack Developer</span>
+            </li>
+            <li class="education__item">
+              <p class="education__text">National Aviation University</p>
+              <span class="education__text-year">2008 - 2014</span>
+              <span class="education__text-direction">Architect</span>
+            </li>
+          </ul>
+        </section>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+</body>
+
 </html>

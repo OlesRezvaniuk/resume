@@ -190,7 +190,7 @@ body > main .resume-info {
   padding-top: 40px;
 }
 body > main .resume-info .hero {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 body > main .resume-info .hero__text {
   display: block;
@@ -276,7 +276,7 @@ body > main .resume-info .projects__item-tech {
   color: #000000;
 }
 body > main .resume-info .exp {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 body > main .resume-info .exp__title {
   font-weight: 700;
@@ -331,7 +331,7 @@ body > main .resume-info .education__title {
   font-size: 23px;
   line-height: 29px;
   /* identical to box height */
-  margin-bottom: 12px;
+  margin-bottom: 5px;
   color: #000000;
 }
 body > main .resume-info .education__list {
